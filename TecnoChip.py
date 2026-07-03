@@ -6,9 +6,9 @@ def generar_factura(nombre_cliente, precio_base, producto):
     print(f"$$$$$$$$$$$$$$$$$$$$$-FACTURA-$$$$$$$$$$$$$$$$$$$$$$$$$$")
     print(f"Factura a nombre de: {nombre_cliente}")
     print(f"Detalle de producto: {producto}")
-    print(f"El valor de su consumo es: ${precio_base}")
-    print(f"EL iva a pagar es de: ${iva}")
-    print(f"El valor total incluido iva es: ${total}")
+    print(f"El valor de su consumo es: {precio_base}")
+    print(f"EL iva a pagar es de: {iva}")
+    print(f"El valor total incluido iva es: {total}")
     print(f"--------------------------------------------------------")
 
 nombre = input("Hola cliente, dime tu nombre: ")
