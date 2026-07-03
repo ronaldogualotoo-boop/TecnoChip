@@ -31,7 +31,9 @@ while True:
         categoria = input()
         
         if categoria not in ["1", "2", "3"]:
+            print("################")
             print("Opcion no valida")
+            print("################")
             continue 
             
        
@@ -81,7 +83,10 @@ while True:
 
        
         if precio == 0:
+            print("################")
             print("Opcion no valida")
+            print("################")
+            
         else:
             generar_factura(nombre, precio, componente)
     else:
